@@ -1,0 +1,68 @@
+﻿
+<html>
+    <head>
+        <title>CSS: Recipe book</title>
+        <meta charset="utf-8">
+        <style>
+        H1{color:red;}
+        h2{color:blue;}
+        h3{color:green;}
+        th{color:purple;}
+        p{color:orange;}
+        </style>
+    </head>
+    <body>
+       
+        <h1>Moje przepisy</h1>
+        
+        <h2>Zawartość:</h2>
+        
+        <ol>
+            <li><a href="?">Przepis #1
+            </a>Sałatka z łososiem</li>
+            <img src="https://zpierwszegotloczenia.pl/obrazek/375869.jpeg
+            " width"3" height"3">
+            
+            
+        </ol>
+        
+        <h3 id="?">Przepis #1</h3>
+        
+        <ul>
+            <li>Czas:30minut </li>
+            <li>Składniki: łosoś, makaron, ser kozi, szpinak </li>
+        </ul>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Składniki</th>
+                    <th>Ilości</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td>łosoś</td>
+              <td>100g</td>
+            </tr>
+              <td>makaron</td>
+              <td>150g</td>
+              <tr><td>ser kozi</td>
+              <td>25g</td></tr>
+              <tr><td>szpinak</td>
+              <td>50g</td></tr>
+            </tbody>
+        </table>
+        
+        <p><strong>Przygotowanie:</strong></p>
+        <ul>
+            <li>ugotować makaron</li>
+            <li>podsmażyć łososia</li>
+            <li>pokroić ser w drobne kostki</li>
+            <li>umyć szpinak</li>
+        </ul>
+        
+    <p><em>Zródło: <a href="?">https://oryginalnysmak.pl/salatka-z-roszponka-wedzonym-lososiem-i-kozim-serem/</a></em></p>
+    
+    </body>
+</html>
